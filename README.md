@@ -1,0 +1,4 @@
+In this report, I will compare the performance of 3 different supervised learning methods on a binary classification problem. 
+The dataset is split into 9 features columns and a binary class column of either 0 or 1. From the code description, I’m able to discern that the dataset is unbalanced with 459 instances of 0 and 241 instances of 1.
+This means that ‘accuracy’ will not be the best discriminator upon which I will select the classification method or hyperparameter tuning, more on this later. I have trained and evaluated all 3 classifications, namely, Logistic Regression, SVM and Random Forest in one main Jupyter Notebook. 
+Due to the complex nature of storing values and retrieving data, I have set up a data frame upon which I’ll be storing these values from all classification algorithms: Accuracy, precision, recall, area under the curve and f1-scores
